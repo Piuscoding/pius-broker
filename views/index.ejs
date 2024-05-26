@@ -1449,23 +1449,21 @@ AOS.init();
 </script>
 
 
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+547202724370", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
 
-
- <script type="text/javascript">
-  (
-      function () 
-      {
-          _360_widget_id = `_${Math.random().toString(36).slice(2)}`;
-          var _360_options = {_360_telegram : "TRADER001000",_360_order : "telegram",_360_greeting : "no",_360_btn_size : "normal",_360_display_btn : "everywhere",_360_chat_bubble : "1",_360_greeting_message_color : "#008000", _360_randomID: _360_widget_id};
-          var _360_proto = document.location.protocol, _360_host = "js.widget.get.chat", _360_url = _360_proto + "//" + _360_host;
-          var _360_s = document.createElement('script'); _360_s.type = 'text/javascript'; 
-          _360_s.async = true; 
-          _360_s.src = _360_url + '/360.js';
-          _360_s.onload = function () { _360Widget.init(_360_host, _360_proto, _360_options); };
-          var _360_x = document.getElementsByTagName('script')[0]; _360_x.parentNode.insertBefore(_360_s, _360_x);
-      }
-  )();
-</script> 
 <!-- /conversational widget -->
 
 <script src="//code.jivosite.com/widget/Z9xgiRKSIa" async></script>
